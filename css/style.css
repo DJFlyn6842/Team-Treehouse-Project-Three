@@ -1,0 +1,193 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  border-bottom: 3px solid #000;
+  background: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+  border-bottom: 3px solid;
+  margin-bottom: .4em;
+}
+
+h2 {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+p {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  color: firebrick;
+}
+
+.intro p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 300;
+  font-size: .8em
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-top: 1px solid
+}
+
+h3 {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.8em;
+  color: blue;
+}
+
+label {
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  margin-top: .5em;
+}
+
+h4 {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: 400;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#topics {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  display: block;
+  background-color: #8ef;
+  border-radius: 10px;
+  margin: auto;
+  align-self: center;
+  width: 99%;
+  height: 6em;
+}
+
+#done {
+  display: block;
+  background: blue;
+  color: white;
+  border-radius: 10px;
+  font-size: 2em;
+  margin: auto;
+  align-self: center;
+  width: 98%;
+  height: 3em;
+}
+
+
+input {
+  color: #000;
+  border: 1px solid #fff;
+}
+
+.required {
+  text-align: right;
+}
+
+.required:focus {
+  text-align: left;
+}
+
+.data input {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  background: #8ef;
+  width: 98%;
+  height: 2em;
+  margin: .3em .1em;
+}
+
+input:focus {
+  color: #e63;
+  background: #ffa;
+  border: 1px solid #e7e;
+}
+
+#states {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  width: 98%;
+  height: 2em;
+  margin: .3em .1em;
+  background: #8ef;
+}
+
+.choices input {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+
+@media (min-width: 768px) {
+  body {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .grouping {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .grouping input {
+    width: 70%;
+    margin-right: auto;
+  }
+
+  .grouping label {
+    width: 25%;
+  }
+
+  #states {
+    width: 70%;
+  }
+
+  #name {
+    width: 70%;
+  }
+
+  #email {
+    width: 70%;
+  }
+
+  #done {
+    margin-top: 2em;
+    height: 2em;
+  }
+
+
+}
