@@ -51,21 +51,26 @@ fieldset {
   display: flex;
   flex-direction: column;
   border: none;
-  border-top: 1px solid
+  margin-top: 1em;
 }
 
-h3 {
+legend {
+  display: block;
+  width: 100%;
   font-family: 'Merriweather Sans', sans-serif;
   font-weight: 700;
   font-size: 1.8em;
   color: blue;
+  padding-top: 1.5em;
+  border-top: 1px solid #000;
+  padding-bottom: 1em;
 }
 
 label {
   font-family: 'Merriweather', sans-serif;
   font-weight: 400;
   font-size: 1em;
-  margin-top: .5em;
+  margin-top: 1em;
 }
 
 h4 {
@@ -86,6 +91,10 @@ h4 {
   align-self: center;
   width: 99%;
   height: 6em;
+}
+
+.six {
+  padding-top: 1.5em;
 }
 
 #done {
